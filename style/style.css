@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+header {
+    background: var(--bg-blue);
+    height: 80px;
+}
+
+main {
+    background: var(--bg-wine);
+    height: 250px;
+}
+
+div {
+    background: var(--bg-wine);
+    height: 70px;
+    margin: 10px 0 0 200px;
+}
+
+footer {
+    background: var(--bg-wine);
+    height: 80px;
+    margin: 10px 20px 0 20px;
+}
